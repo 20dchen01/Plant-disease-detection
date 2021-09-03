@@ -145,7 +145,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun runObjectDetection(bitmap: Bitmap) {
         val image = TensorImage.fromBitmap(bitmap)
         val options = ImageClassifierOptions.builder().setMaxResults(1).build()
-        val imageClassifier = ImageClassifier.createFromFileAndOptions(this, "model.tflite", options)
+        val imageClassifier = ImageClassifier.createFromFileAndOptions(this, "model0.tflite", options)
 
         val results = imageClassifier.classify(image)
         val resultToDisplay = results.map {
