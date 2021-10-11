@@ -1,0 +1,4 @@
+#Fri Sep 24 13:04:01 BST 2021
+base.0=C\:\\Users\\David\\Desktop\\Dissertation3\\odml-pathways-main\\object-detection\\codelab2\\android\\starter\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
